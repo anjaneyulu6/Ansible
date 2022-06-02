@@ -1,0 +1,22 @@
+- - -
+- students:
+  - name: anji
+    phno: 9999999999
+    address:
+      dno: 567
+      street: 2nd
+      pincode: 5657888
+  - name: anil
+    phno: 8888888888
+    address:
+      dno: 568
+      street: 3rd
+      pincode: 5657889
+  - name: vinil
+    phno: 7777777777
+    address:
+      dno: 569
+      street: 4th
+      pincode: 5657886
+          
+      
