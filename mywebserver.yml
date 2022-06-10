@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: yes
-  gather_facts: yes
   tasks:
   - name: install webserver on ubuntu
     apt:
@@ -13,3 +12,4 @@
       name: httpd
       state: present
     when: ansible_os_family=="Redhat"
+  - name: start webserver on redhat
