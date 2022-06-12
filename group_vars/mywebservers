@@ -1,4 +1,4 @@
-- - - 
+---
 - hosts: mywebservers
   become: yes
   tasks:
