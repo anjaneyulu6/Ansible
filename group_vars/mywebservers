@@ -1,0 +1,20 @@
+- - - 
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - name: install weserver on ubuntu
+    apt:
+      name: "{{mywebpackonubuntu}}"
+      state: present
+    when: ansible_os_family=="Debian"
+  - name: start weserver on ubuntu
+    service:
+      name: "{{mywebpackonubuntu}}"
+      state: started
+    when: ansible_os_family=="Debian"
+  - name: install weserver on redhat
+    yum:
+      name: "{{mywebpackonredhat}}"
+      state: present
+    when: ansible_os_family=="Redhat"
+    
