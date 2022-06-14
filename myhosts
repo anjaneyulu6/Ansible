@@ -1,12 +1,4 @@
-[mywebservers]
-172.31.94.114
-172.31.91.213
-
-
-
-[mywebservers:vars]
-mywebpackonubuntu = apache2
-mywebpackonubuntu = httpd
+172.31.95.119
 
 
 
