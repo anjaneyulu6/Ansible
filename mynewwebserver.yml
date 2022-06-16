@@ -2,8 +2,8 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install git
+  - name: install tree
     apt:
-      name: git
-      state: present
+      name: tree
+      statee: present
   
