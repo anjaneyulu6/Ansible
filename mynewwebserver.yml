@@ -2,8 +2,8 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install wget
+  - name: install git
     apt:
-      name: wget
+      name: git
       state: present
   
