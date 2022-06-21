@@ -1,9 +1,9 @@
 ---
-- hosts: all
+- hosts: webservers
   become: yes
   tasks:
-  - name: install tree
+  - name: install apache
     apt:
-      name: tree
-      statee: present
+      name: apsche2
+      state: present
   
